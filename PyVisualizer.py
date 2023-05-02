@@ -2,11 +2,11 @@ from tkinter import *
 from tkinter import filedialog
 from pygame import mixer
 import pygame
-import os
 
 
 current_volume = float(0.5)
 Count = 1
+
 
 #Functions
 def play_song():
@@ -87,11 +87,11 @@ def play():
     pygame.mixer.music.play(loops=0)
 def stop():
     pygame.mixer.music.stop()
-    Song_Box.selection_clear(ACTIVE)
 
 
 
-# Main screen
+
+# Main Screen
 master = Tk()
 master.title("Music Player")
 
@@ -114,7 +114,7 @@ Button(master, text="Pause", font=("Calibri", 12), width=10,command=pause).grid(
 Button(master, text="Resume", font=("Calibri", 12), width=10,command=resume).grid(row=3, sticky="W")
 Button(master, text="-", font=("Calibri", 12), width=5,command=decrease_volume).grid(row=5, sticky="W")
 Button(master, text="+", font=("Calibri", 12), width=5,command=increase_volume).grid(row=5, sticky="E")
-Button(master, text="Customize", font=("Calibri", 12), width=18,command=New_Window).grid(row=0, sticky="E")
+Button(master, text="Customize", font=("Calibri", 12), width=12,command=New_Window).grid(row=0, sticky="E")
 Button(master, text="Play", font=("Calibri", 12), width=10,command=play).grid(row=8, sticky="W")
 Button(master, text="Stop", font=("Calibri", 12), width=10,command=stop).grid(row=8, sticky="E")
 master.mainloop()
