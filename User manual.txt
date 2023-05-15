@@ -1,0 +1,8 @@
+Welcome to PyVisualizer
+-To get started you will need a wav or MP3 file you can select from your folders.
+-Press Select Song and choose your file once you've done this the song will go into the songbox where you can choose which song to play
+-Once you've chosen a song press the play button. 
+-If you press the Customize button you can change the color fo the songbox and the song names.
+-Sadly the visualiztion part doesn't entirely work. I was trying to fully make the visualizer in a different script then bring it over to the main one but never fully figured it out. You are able to choose a song but not from the songbox and it does visualize the song you choose but I cant figure out why the song plays slower than the actual speed of the songs. I have been very much enjoying this project and I plan to finish it so I have an actual functional visualizer. 
+-On the visualizer you can also customize the colors of the bars and you can switch to another song.
+-Warning depending on the song played the visualizer has a chance of playing statics sounds. 
